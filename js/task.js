@@ -12,9 +12,10 @@ function solveEquation(a, b, c) {
     console.log(`Дискриминант ${d} = 0, 1 корень`);
       let x1 = -b/(2*a);
       arr.push(x1);
+  }      else if (d < 0) {
+        console.log(`Дискриминант ${d} < 0, корней нет`);
   }
- console.log(`Дискриминант ${d} < 0, корней нет`);
-  console.log(arr);
+   console.log(arr);
   return arr;
 }
 

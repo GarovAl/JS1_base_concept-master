@@ -1,5 +1,4 @@
 "use strict"
-
   // Задача №1
 function solveEquation(a, b, c) {
   let arr = [];
@@ -14,7 +13,7 @@ function solveEquation(a, b, c) {
       let x1 = -b/(2*a);
       arr.push(x1);
   }
-  console.log(`Дискриминант ${d} < 0, корней нет`);
+ console.log(`Дискриминант ${d} < 0, корней нет`);
   console.log(arr);
   return arr;
 }
